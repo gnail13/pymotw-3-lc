@@ -14,3 +14,4 @@ s = 'The quick brown fox jumped over the lazy dog.'
 print(s)
 print(string.capwords(s))
 print(s.upper())
+print(s.lower())
