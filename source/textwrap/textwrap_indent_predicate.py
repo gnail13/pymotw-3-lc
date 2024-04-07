@@ -13,6 +13,7 @@ from textwrap_example import sample_text
 
 def should_indent(line):
     print('Indent {!r}?'.format(line))
+    print(len(line.strip())) # add the line length char count
     return len(line.strip()) % 2 == 0
 
 

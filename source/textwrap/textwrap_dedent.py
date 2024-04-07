@@ -10,6 +10,10 @@
 import textwrap
 from textwrap_example import sample_text
 
+# add print of original
+print('Original:\n')
+print(sample_text)
+
 dedented_text = textwrap.dedent(sample_text)
 print('Dedented:')
 print(dedented_text)
